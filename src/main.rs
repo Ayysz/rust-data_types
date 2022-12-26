@@ -6,11 +6,11 @@ fn main() {
     declare variable 
     variable is where we store data
     */
-    let nama_barang : &str = "Sikat gigi";
-    let jumlah :i32 = 5;
-    let diskon :f32 = 0.15;
+    let nama_barang : &str = "Sikat gigi"; 
+    let jumlah :i32 = 5; // i meaning only include positve number
+    let diskon :f32 = 0.15; //f meaning float number
     let diskon_convert :f32  = diskon * 100.0;
-    let diskon_persen :u32 = diskon_convert as u32;  
+    let diskon_persen :u32 = diskon_convert as u32; // u meaning  can content negative and positive data
     let kartu_member :bool = false;
     const FIRST_LATTER_NAME :char = 'L'; //biasakan untuk declare variable constant dengan capital letter
 
